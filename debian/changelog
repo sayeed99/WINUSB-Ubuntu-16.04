@@ -1,0 +1,5 @@
+winusb (1.0.11) unstable; urgency=low
+
+  * Add dependency to grub-pc OR grub-efi.
+	
+ -- Colin GILLE / congelli501 <colingille@hotmail.com>  Wed, 27 Mar 2013 22:35:31 +0100
