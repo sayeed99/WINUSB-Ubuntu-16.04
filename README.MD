@@ -2,7 +2,7 @@
 
 Dependencies : sudo apt-get install gcc build-essential libwxbase3.0-dev libwxgtk3.0-dev
 
-To Compile : 
+To Compile :
     git clone https://github.com/sayeed99/WINUSB-Ubuntu-16.04
     cd WINUSB-Ubuntu-16.04
     sudo su
@@ -16,4 +16,4 @@ Fix grub installation : sudo nano /usr/local/bin/winusb
 
 Enjoy!
 
-   Courtesy : https://onetransistor.blogspot.in/2016/04/install-winusb-on-ubuntu-1604-lts.html 
+   Courtesy : https://onetransistor.blogspot.in/2016/04/install-winusb-on-ubuntu-1604-lts.html
