@@ -1,18 +1,18 @@
-	winusb - A program to create Windows USB stick installer from a real Windows DVD or an image.
-	
-	This package contains two programs:
-	  - WinUSB-gui: a simple tool that enable you to create
-	 your own usb stick windows installer from iso image
-	 or a real DVD.
-	  - winusb: the command line tool.
-	 Supported images: Windows Vista, Seven, 8 installer for any
-	 language and any version (home, pro...) and Windows PE.
 
-  Copyright (C) 2008 Colin GILLE / congelli501
+Dependencies : sudo apt-get install gcc build-essential libwxbase3.0-dev libwxgtk3.0-dev
 
-  This file is part of winusb.
-  winusb is sold under GPL licence (read COPYING file).
+To Compile :
+    git clone https://github.com/sayeed99/WINUSB-Ubuntu-16.04
+    cd WINUSB-Ubuntu-16.04
+    sudo su
+    ./configure
+    make
+    make install
 
-Comments are welcome.
+Fix grub installation : sudo nano /usr/local/bin/winusb
+    Find line starting with : grub-install  /line 401 or 402/
+    replace this line with : grub-install --target=i386-pc --boot-directory="$partitionMountPath/boot" "$device"
 
-	- Colin GILLE / congelli501 <colingille@hotmail.com>
+Enjoy!
+
+   Courtesy : https://onetransistor.blogspot.in/2016/04/install-winusb-on-ubuntu-1604-lts.html
